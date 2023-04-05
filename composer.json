@@ -1,11 +1,11 @@
 {
-    "name": "overtrue/laravel-like",
+    "name": "hafidd4/laravel-like",
     "description": "👍 User-like features for Laravel Application.",
     "license": "MIT",
     "authors": [
         {
-            "name": "overtrue",
-            "email": "anzhengchao@gmail.com"
+            "name": "hafidd4",
+            "email": "hafidd4@gmail.com"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Overtrue\\LaravelLike\\": "src"
+            "hafidd4\\LaravelLike\\": "src"
         }
     },
     "autoload-dev": {
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Overtrue\\LaravelLike\\LikeServiceProvider"
+                "hafidd4\\LaravelLike\\LikeServiceProvider"
             ]
         },
         "hooks": {
